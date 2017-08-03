@@ -7,9 +7,13 @@ Implemented using PHP7, MySQL and JavaScript.
 
 Here are a few screen captures.
 
-![Manga-Mania-1](screenshots/4.png)
+![img1](screenshots/4.png)
 
-![Manga-Mania-2](screenshots/6.png)
+![img2](screenshots/6.png)
+
+![img3](screenshots/1.png)
+
+![img4](screenshots/3.png)
 
 ## Features
 
