@@ -5,6 +5,11 @@ This is a simple page-by-page PDF uploader and viewer that can be used to upload
 
 Implemented using PHP7, MySQL and JavaScript.
 
+Here are a few screen captures.
+
+![Manga-Mania-1](screenshots/4.png)
+
+![Manga-Mania-2](screenshots/6.png)
 
 ## Features
 
