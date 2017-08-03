@@ -1,0 +1,7 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^get/$ server.php?term= [nc,qsa]
+RewriteRule ^get/([a-zA-Z0-9]+)/$ server.php?term=$1 [nc,qsa]

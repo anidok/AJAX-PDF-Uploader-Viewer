@@ -1,0 +1,28 @@
+
+/* BASIC RESET */
+body, div, img, p { padding:0; margin:0; }
+a img { border:0 }
+
+/* HTML ELEMENTS */
+body { font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background-color:#efefef; background-color: #383d44; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+
+
+/* SEARCH FORM */
+#searchform { margin:50px 200px; font-size:18px; margin-left: 340px; }
+#searchform div { color:#eeeeee; }
+#searchform div input { font-size:18px; padding:5px; width:300px;  }
+#searchform img{width: 70px; height: 70px; margin-left: 320px; margin-top: 10px; display: none;}
+#suggestions{ position: relative; left:235px; width:300px; height:500px; overflow:scroll; display:none; }
+
+/* SEARCHRESULTS */
+#searchresults { border-width:1px; border-color:#919191; border-style:solid; width:241px; background-color:#ffffff; font-size:15px; line-height:30px; margin-top: 26px;}
+#searchresults li {display: block; list-style: none; margin: 0px 0px 0px -40px; padding: 0px 0px 0px 0px;}
+#searchresults a { color: #00b386; font: normal 13px arial; display:block; background-color:#ffffff; clear:left; height:56px; text-decoration:none; border: 3px solid #ffffff; }
+#searchresults a img { float:left; width:20%; height:100%; margin-right: 20px;}
+#searchresults a span.pdffilename { display:block; font: bold 16px sans-serif; color:#00cc99; }
+#searchresults a span.pdftitle { display:block; font: bold 16px sans-serif; color:#00cc99; }
+

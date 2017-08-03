@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^term/$ allresults.php [NC,L]
+RewriteRule ^term/([a-zA-Z0-9\-\+\:_]+)?$ singleresult.php?term=$1 [NC,L]
+RewriteRule ^page/([a-zA-Z0-9\-\+\:_]+)/([0-9]+)?$ page.php?file=$1&pageno=$2 [NC,L]
+#RewriteRule ^$ allresults.php [NC,L]

@@ -1,0 +1,92 @@
+#container{
+	display: block;
+	width: 100%;
+	height: 700px;
+}
+
+#pdf-thumb-container{
+	display: inline;
+	float: left;
+	border: 2px solid black;
+	width: 20%;
+	height: 670px;
+	background-color: #737373;
+	overflow-y: scroll;
+}
+
+#pdf-thumb-results li{
+	list-style: none;
+}
+
+
+#pdf-thumb-results li img{
+	width: 200px;
+	height: 250px;
+}
+
+#pdf-main-container {
+	
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+	padding: 8px;
+	border: 2px solid black;
+	overflow-y:scroll;
+	height: 640px;
+	width: 850px;
+	background-color: #c1c1d7;
+}
+
+#pdf-loader {
+	display: block;
+	text-align: center;
+	color: #999999;
+	font-size: 13px;
+	line-height: 100px;
+	height: 100px;
+}
+
+#pdf-contents {
+	display: none;
+	margin-left: 20px;
+}
+
+#pdf-meta {
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+#imageDiv {
+	width: 800px;
+	height: 1000px;
+}
+
+#imageDiv img{
+	width: 800px;
+	height: 1000px;
+}
+
+#pdf-buttons {
+	float: left;
+}
+
+#page-count-container {
+	margin-left: 700px;
+}
+
+#pdf-current-page {
+	display: inline;
+}
+
+#pdf-total-pages {
+	display: inline;
+}
+
+
+#page-loader {
+	height: 100px;
+	line-height: 50px;
+	text-align: center;
+	display: none;
+	color: green;
+	font-size: 13px;
+}
