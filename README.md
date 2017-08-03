@@ -1,4 +1,4 @@
-AJAX PDF Uploader & Viewer
+#AJAX PDF Uploader & Viewer
 ===========================
 
 This is a simple page-by-page PDF uploader and viewer that can be used to upload, view PDF files and delete them from a server. The PDF pages are served to the client as JPEG images.
