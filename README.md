@@ -1,4 +1,4 @@
-#AJAX PDF Uploader & Viewer
+AJAX PDF Uploader & Viewer
 ===========================
 
 This is a simple page-by-page PDF uploader and viewer that can be used to upload, view PDF files and delete them from a server. The PDF pages are served to the client as JPEG images.
@@ -6,7 +6,8 @@ This is a simple page-by-page PDF uploader and viewer that can be used to upload
 Implemented using PHP7, MySQL and JavaScript.
 
 
-##Features
+## Features
+
 
 * The software is modular and divided into `client` and `admin` modules.
 * `admin` module contains functionality for directly interacting with the server and database that stores the PDF files. An admin may upload and delete files.
@@ -15,7 +16,7 @@ Implemented using PHP7, MySQL and JavaScript.
 
 * `client` views the PDF using a REST like service. The service can be used to fetch metadata of matching PDF files (searching) and requesting individual pages (viewing).
 
-##Service
+## Service
 
 The service is a PHP script that runs on a custom port (8000 is used here). The Apache webserver's reqrite module is used to achieve redirection. Assume the service is running on the host `www.example.com`. The returned by the service is in JSON format.
 
