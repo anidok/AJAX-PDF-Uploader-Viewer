@@ -9,6 +9,16 @@ Implemented using PHP7, MySQL and JavaScript.
 [Aniket Dokania][1]
 [Koushtav Chakrabarty][2]
 
+Here are a few screen captures.
+
+![img1](screenshots/4.png)
+
+![img2](screenshots/6.png)
+
+![img3](screenshots/1.png)
+
+![img4](screenshots/3.png)
+
 ## Features
 
 * The software is modular and divided into `client` and `admin` modules.
