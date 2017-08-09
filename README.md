@@ -5,18 +5,11 @@ This is a simple page-by-page PDF uploader and viewer that can be used to upload
 
 Implemented using PHP7, MySQL and JavaScript.
 
-Here are a few screen captures.
-
-![img1](screenshots/4.png)
-
-![img2](screenshots/6.png)
-
-![img3](screenshots/1.png)
-
-![img4](screenshots/3.png)
+## Authors
+[Aniket Dokania][1]
+[Koushtav Chakrabarty][2]
 
 ## Features
-
 
 * The software is modular and divided into `client` and `admin` modules.
 * `admin` module contains functionality for directly interacting with the server and database that stores the PDF files. An admin may upload and delete files.
@@ -27,7 +20,7 @@ Here are a few screen captures.
 
 ## Service
 
-The service is a PHP script that runs on a custom port (8000 is used here). The Apache webserver's reqrite module is used to achieve redirection. Assume the service is running on the host `www.example.com`. The returned by the service is in JSON format.
+The service is a PHP script that runs on a custom port (8000 is used here). The Apache webserver's rewrite module is used to achieve URL redirection. The data returned by the service is in JSON format. Assume the service is running on the host `www.example.com`.
 
 * Search requests are sent as follows:
 
@@ -44,3 +37,6 @@ Also, details of all the files in the server can be retrieved using the URL:
 `www.example.com/webservice/client/get/<pdf-file-name>/<page-number>`
 
 This will return a JPEG image, enoded within a JSON response, of the requested page of the specific PDF file.
+
+[1]: https://github.com/anidok
+[2]: https://github.com/TheIllusionistMirage/
